@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Bungee Shade', cursive;
+}
+
+body {
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/delorean.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 125px;
+    text-shadow: 0 0 0.2em rgb(255, 255, 255), 0 0 0.2em rgb(255, 255, 255),
+        0 0 0.2em rgb(255, 255, 255);
+}
+
+.counter {
+    font-size: 3.5em;
+    text-shadow: 0 0 0.2em rgb(255, 255, 255), 0 0 0.2em rgb(255, 255, 255),
+        0 0 0.2em rgb(255, 255, 255);
+}
+
+.pausado {
+    color: rgb(114, 1, 1);
+}
+
+.buttonStyle :hover {
+    cursor: pointer;
+    scale: 1.1;
+    transition: 0.9s;
+    background-color: rgba(255, 255, 255, 0.322);
+}
+
+.start,
+.pause,
+.reset {
+    font-size: 1.3em;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.233);
+    text-shadow: 0 0 0.1em rgb(0, 255, 21), 0 0 0.1em rgb(255, 255, 255),
+        0 0 0.1em rgb(255, 255, 255);
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.buttonBack {
+    background-color: rgba(114, 1, 1, 0.466);
+}
